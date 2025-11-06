@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    
+    <link rel="stylesheet" href="pastaProjeto/forms.css"> 
+</head>
+<body>
+
+    <form id="salesforce-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dbm00000TWEdn" method="POST">
+
+        <input type=hidden name="oid" value="00Dbm00000TWEdn">
+        <input type=hidden name="retURL" value="https://rafaelcili.github.io/">
+        
+        <h2>Fale Conosco</h2>
+
+        <div class="form-group">
+            <label for="first_name">First Name</label>
+            <input id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+        </div>
+
+        <div class="form-group">
+            <label for="last_name">Last Name</label>
+            <input id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" maxlength="80" name="email" size="20" type="text" />
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input id="phone" maxlength="40" name="phone" size="20" type="text" />
+        </div>
+
+        <div class="form-group">
+            <label for="00Nbm00000l8HYT">Product Category</label>
+            <input id="00Nbm00000l8HYT" maxlength="100" name="00Nbm00000l8HYT" size="20" type="text" />
+        </div>
+
+        <input type="submit" name="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
